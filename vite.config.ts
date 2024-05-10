@@ -4,6 +4,6 @@ import { nodePolyfills } from "vite-plugin-node-polyfills";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), nodePolyfills()],
-  base: "/",
+    plugins: [react(), nodePolyfills()],
+    base: '/stepik_front_end/',
 });
